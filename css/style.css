@@ -1,0 +1,230 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+	/*fin de reset*/
+	
+body{
+	background: url("../img/fondo.jpg")no-repeat fixed center 0;
+}
+#wrapper{
+	margin: 0 auto;
+	width: 962px;
+}
+
+header{
+	background-color: white;
+	float: left;
+	margin-top: 5px;
+	width: 100%;
+}
+.social{
+	float: left;
+	width: 962px;
+}
+.social ul{
+	float: right;
+}
+.social-btn{
+	float: left;
+	margin-left: 3px;
+}
+
+#logotipo{
+	float: left;
+	margin-bottom: 5px;
+}
+.menu{
+	border-bottom: solid 1px #9c9c9c;
+	border-top: solid 1px #9c9c9c;
+	float: right;
+	margin-top: 10px;
+	padding: 15px 60px 15px 0;
+}
+.btn{
+	float: left;
+	font-size: 18px;
+	margin-left: 50px;
+}
+.btn-iten{
+	color: #9c9c9c;
+	text-decoration: none;
+}
+.btn-iten:hover{
+	color: black;
+}
+
+.sub-menu{
+	width: 100px;
+	position: absolute;
+	display: none;
+	list-style: none;
+	margin-top: 2px;
+	z-index: 5;
+}
+.btn-extra{
+	opacity: 0.8;
+	background: white;
+	text-decoration: none;
+	color: #9c9c9c;
+	display: block;
+	border-radius: 3px;
+	padding:7px 10px;
+	font-size: 90%;
+	text-align: center;
+	-webkit-transition:all .5s;
+	-moz-transition:all .5s;
+	-ms-transition:all .5s;
+	-o-transition:all .5s;
+	transition:all .5s;
+}
+.btn-extra:hover{
+	opacity: 0.8;
+	color: white;
+	background: #0b6c84;
+	letter-spacing: 3px;
+}
+/*fin de header*/
+
+
+#banner{
+	float: left;
+	height: 390px;
+	width: 100%;
+}
+#slider{
+	margin-top: 20px;
+	width:960px;
+	height: 300px;
+}
+
+.slides li{
+	width:960px;
+	height:58.3px;
+}
+.slides img{
+	width: 100%;
+	height: 350px;
+}
+#intro{
+	background:#0b6c84;
+	opacity: 0.7;
+	float: left;
+	height: 80px;
+	width: 100%;
+}
+#intro p{
+	margin-top: 7px;
+	font-family: arial black;
+	color: white;
+	text-shadow:
+	1px 1px 0px rgba(230,230,230,1), 
+	2px 2px 0px rgba(200,200,200,1), 
+	3px 3px 0px rgba(180,180,180,1), 
+	4px 4px 0px rgba(160,160,160,1),
+	5px 5px 0px rgba(0,0,0,1), 
+	8px 8px 10px rgba(0,0,0,0.5);
+	font-size: 35px;
+	padding: 10px;
+	text-align: center;
+}
+
+#projects{
+	float: left;
+	width: 100%;
+
+}
+#projects h2{
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+#imagenes{
+	border-top: solid 1px white;
+	float: left;
+	height: 230px;
+	width: 100%;
+}
+.imagen-projects{
+	display: inline-block;
+	margin:15px 3.75px;
+	width: 230px;
+}
+.imagen-projects img{
+	height: auto;
+	max-width: 100%;
+}
+.imagen-projects p{
+	color: black;
+}
+.lightbox{
+			position: fixed center 0;
+		}
+
+.footer{
+	background-color: white;
+	opacity: 0.8;
+	border-bottom: solid 1px #9c9c9c;
+	border-top: solid 1px #9c9c9c;
+	clear: both;
+	float: left;
+	margin: 20px 0 20px 0;
+	padding: 15px 0 15px 0;
+	width: 100%;
+}
+.footer p{
+	float: left;
+	margin-left: 10px;
+}
+.menu-footer{
+	float: right;
+	margin-right: 10px;
+}
+.btn-footer{
+	float: left;
+	margin-left: 25px;
+}
