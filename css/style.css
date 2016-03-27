@@ -49,6 +49,8 @@ table {
 	/*fin de reset*/
 	
 body{
+	background-color: rgb(1,37,63);
+	width: 100%;
 	background: url("../img/fondo.jpg")no-repeat fixed center 0;
 }
 #wrapper{
@@ -168,7 +170,7 @@ header{
 	4px 4px 0px rgba(160,160,160,1),
 	5px 5px 0px rgba(0,0,0,1), 
 	8px 8px 10px rgba(0,0,0,0.5);
-	font-size: 35px;
+	font-size: 33px;
 	padding: 10px;
 	text-align: center;
 }
