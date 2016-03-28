@@ -30,6 +30,11 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+		background: url("../img/fondo.jpg")no-repeat fixed center 0;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
 ol, ul {
 	list-style: none;
@@ -49,11 +54,16 @@ table {
 	/*fin de reset*/
 	
 body{
-	background: url("../img/fondo.jpg")no-repeat fixed center 0;
+	/*background-color: yellow;
+	    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    width: 1020px;*/
 }
 #wrapper{
 	margin: 0 auto;
 	width: 962px;
+	background-color: yellow;
 }
 
 header{
