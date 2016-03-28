@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-		background: url("../img/surf.jpg")no-repeat fixed center 0;
+		background: url("../img/fondo.jpg")no-repeat fixed center 0;
 	-webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
