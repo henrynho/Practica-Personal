@@ -1,5 +1,1 @@
-Probando a ver como vamos señores full practica!!!!
-probando probando!!!
-hola a todos
-holaaaa
-hhhh
+logramos cambiar muchas cosas estamos a full
